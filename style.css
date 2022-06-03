@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+}
+
+.android-container {
+  position: relative;
+
+  width: 400px;
+  height: 500px;
+}
+
+.android-head {
+  position: relative;
+  background-color: #a5c736;
+  width: 270px;
+  height: 150px;
+  border-radius: 200px 200px 0px 0px;
+  inset: 0;
+  margin: auto;
+}
+
+.android-eye-left {
+  position: absolute;
+  background-color: aliceblue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: 20%;
+  top: 40%;
+}
+
+.android-eye-right {
+  position: absolute;
+  background-color: aliceblue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  right: 20%;
+  top: 40%;
+}
+
+.android-antenna-left {
+  position: absolute;
+  left: 20%;
+  top: -30%;
+  background-color: #a5c736;
+  width: 10px;
+  height: 100px;
+  transform: rotate(-45deg);
+  border-radius: 38px 38px 38px 38px;
+}
+.android-antenna-right {
+  position: absolute;
+  right: 20%;
+  top: -30%;
+  background-color: #a5c736;
+  width: 10px;
+  height: 100px;
+  transform: rotate(45deg);
+  border-radius: 38px 38px 38px 38px;
+}
+
+.android-body {
+  position: absolute;
+  background-color: #a5c736;
+  width: 270px;
+  height: 250px;
+  border-radius: 0px 0px 37px 37px;
+  margin-top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.android-leg-left {
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  background-color: #a5c736;
+  top: 210px;
+  left: 15%;
+  border-radius: 0px 0px 37px 37px;
+}
+.android-leg-right {
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  background-color: #a5c736;
+  top: 210px;
+  right: 15%;
+  border-radius: 0px 0px 37px 37px;
+}
+.android-arm-left {
+  position: absolute;
+  background-color: #a5c736;
+  height: 220px;
+  width: 55px;
+  border-radius: 38px 38px 38px 38px;
+}
+
+.android-arm-right {
+  background-color: #a5c736;
+  position: absolute;
+  right: 0;
+  height: 220px;
+  width: 55px;
+  border-radius: 38px 38px 38px 38px;
+}
