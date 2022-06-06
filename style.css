@@ -59,7 +59,7 @@ body {
   width: 10px;
   height: 100px;
   transform: rotate(-45deg);
-  border-radius: 38px 38px 38px 38px;
+  border-radius: 38px;
 }
 .android-antenna-right {
   position: absolute;
@@ -69,7 +69,7 @@ body {
   width: 10px;
   height: 100px;
   transform: rotate(45deg);
-  border-radius: 38px 38px 38px 38px;
+  border-radius: 38px;
 }
 
 .android-body {
@@ -115,4 +115,33 @@ body {
   height: 220px;
   width: 55px;
   border-radius: 38px 38px 38px 38px;
+}
+
+@media (max-width: 600px) {
+  .android-container {
+    position: relative;
+
+    width: 375px;
+    height: 500px;
+  }
+
+  .android-head {
+    position: relative;
+    background-color: #a5c736;
+    width: 250px;
+    height: 150px;
+    border-radius: 200px 200px 0px 0px;
+    inset: 0;
+    margin: auto;
+  }
+  .android-body {
+    position: absolute;
+    background-color: #a5c736;
+    width: 250px;
+    height: 250px;
+    border-radius: 0px 0px 37px 37px;
+    margin-top: 8px;
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
